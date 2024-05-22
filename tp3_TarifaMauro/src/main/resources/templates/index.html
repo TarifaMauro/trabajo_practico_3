@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Programacion Visual</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 <body>
-    <header>
+    <header id="encabezado">
         <h1>Programacion Visual - Sede San Salvador de Jujuy. </h1>
-        <nav>
+    </header>
+        <nav class="menu">
             <ul>
-                <li><a href="https://www.fi.unju.edu.ar">Fi-Unju</a></li>
-                <li><a href="#seccion1">Acerca de la materia</a></li>
-                <li><a href="#seccion2">Profesores a Cargo</a></li>
-                <li><a href="#seccion3">Programa de la materia</a></li>
+                <li><a class="links" href="https://www.fi.unju.edu.ar">Fi-Unju</a></li>
+                <li><a class="links" href="#seccion1">Acerca de la materia</a></li>
+                <li><a class="links" href="#seccion2">Profesores a Cargo</a></li>
+                <li><a class="links" href="#seccion3">Programa de la materia</a></li>
             </ul>
         </nav>
-    </header>
     
-    <main>
-        <section id="seccion1">
+    <main class="main">
+        <section class="secciones" id="seccion1">
             <h2>Acerca de la materia</h2>
             <p>Es una asignatura</p> 
             <p>del segundo año del plan de estudios de la</p> 
@@ -26,19 +27,27 @@
             <p>Tiene una carga horaria total de 90 horas y se imparte en modalidad virtual.</p>
         </section>
 
-        <section id="seccion2">
-            <h2>Profesores a Cargo</h2>
-                <h3>Responsable de Cátedra:</h3> 
-                <P>Mg. Ing. Ariel Alejandro Vega
-            </p>
-                <h3>Equipo de Cátedra:</h3>
-                <p> Prof Adj Ded. Simple Mg. Ing. Gustavo Sosa
-                , JTP Ded. Simple: Ing. Carolina Apaza
-                , Ayu. Primera Ded. Simple Juan Rodriguez
-            </p>
+        <section class="secciones" id="seccion2">
+            <table class="table">
+                 <tbody>
+                       <tr>
+                           <th colspan="2">Profesores a Cargo</th>
+                       </tr>
+                       <tr>
+                          <td> <h3>Responsable de Cátedra:</h3></td>
+                          <td>Mg. Ing. Ariel Alejandro Vega</td>
+                       </tr>
+                       <tr>
+                          <td><h3>Equipo de Cátedra:</h3></td>
+                          <td>Prof Adj Ded. Simple Mg. Ing. Gustavo Sosa
+                              , JTP Ded. Simple: Ing. Carolina Apaza
+                              , Ayu. Primera Ded. Simple Juan Rodriguez</td>
+                          </tr>
+                 </tbody>
+            </table>
         </section>
 
-        <section id="seccion3">
+        <section class="secciones" id="seccion3">
             <h2>Programa de la materia</h2>
             <ol>
                 <li><h3>UNIDAD I: Lenguaje Java</h3>
@@ -124,12 +133,12 @@
         </section>
     </main>
     
-    <aside>
+    <aside class="secciones">
          <h2> Adicionales </h2>         
-         <img alt="Imagen" src=" ../static/image/logopv.png">  
+         <img alt="Imagen" src=" ../static/image/logopv.png" class="img">  
     </aside>
     
-    <footer>
+    <footer id="footer">
     <h2> Alumno: </h2>
          <p>Tarifa, Mauro Agustín</p>
          <h3> Contactos: </h3>

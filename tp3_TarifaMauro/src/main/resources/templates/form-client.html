@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+      <head>
+            <meta charset="UTF-8">
+            <title>Formulario de cliente</title>
+            <link rel="stylesheet" href="../static/css/estilos.css">
+      </head>
+      <body >
+            <header id="encabezado">
+                    <h1>Registro de Cliente.</h1>
+            </header>
+      
+            <form class="main2" action="#" method="post">
+                 <label for="dni">DNI:</label>
+                 <input type="number" id="dni" name="dni" required="required" class="input"><br>
+                 
+                 <label for="nombres">Nombres</label>
+                 <input type="text" id=nombres name="Nombres" required class="input"><br>
+                 
+                 <label for="apellidos">Apellidos</label>
+                 <input type="text" id="apellidos" name="Apellidos" required class="input"><br>
+                 
+                 <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                 <input type="date" id="fechaNacimiento" name=fechaNacimiento required class="input"><br>
+               
+               
+                 Genero<br>
+                 <label for="generos_masculino">Masculino</label>
+                 <input type="radio" id="generos_masculino" name="Genero" value="masculino" class="input">
+
+                 <label for="generos_femenino">Femenino</label>
+                 <input type="radio" id="generos_femenino" name="Genero" value="femenino" class="input">
+
+                 <label for="generos_x">X</label>
+                 <input type="radio" id="generos_otro" name="Genero" value="otro" class="input"><br>
+                 
+                 <label for="correoElectronico">Correo Electronico</label>
+                 <input type="text" id="correoElectronico" name="correoElectronico" required class="input"><br>
+                 
+                 <label for="domicilio">Domicilio</label>
+                 <input type="text" id="domicilio" name="domicilio" required class="input"><br>
+                 
+                 <label for="provincia"> Provincias </label>
+                 <select id="provincia" name="provincia" class="input">
+                        <option value=""></option>
+                        <option value="BSAS">Buenos Aires</option>
+                        <option value="CATAMARCA">Catamarca</option>
+                        <option value="CHACO">Chaco</option>
+                        <option value="CORDOBA">Cordoba</option>
+                        <option value="CORRIENTES">Corrientes</option>
+                        <option value="ENTRERIOS">Entre Rios</option>
+                        <option value="FORMOSA">Formosa</option>
+                        <option value="JUJUY">Jujuy</option>
+                        <option value="LAPAMPA">La Pampa</option>
+                        <option value="LARIOJA">La Rioja</option>
+                        <option value="MENDOZA">Mandoza</option>
+                        <option value="MISIONES">Misiones</option>
+                        <option value="NUEQUEN">Neuquen</option>
+                        <option value="RIONEGRO">Rio Negro</option>
+                        <option value="SALTA">Salta</option>
+                        <option value="SANJUAN">San Juan</option>
+                        <option value="SANLUIS">San Luis</option>
+                        <option value="SANTACRUZ">Santa Cruz</option>
+                        <option value="SANTAFE">Santa Fe</option>
+                        <option value="SANTIAGODELESTERO">Santiago del Estero</option>
+                        <option value="TIERRADELFUEGO">Tierra del Fuego</option>
+                        <option value="TUCUMAN">Tucuman</option>
+                 </select><br>
+                 
+                 <label for="numeroCelular">Numero de Celular</label>
+                 <input type="number" id="numeroCelular" name="numeroCelular" class="input"><br>
+                 
+                  Seleccione una categoria<br> 
+                 <label for="categoriaInteres">Categoria 1</label>
+                 <input type="checkbox" id="categoriaInteres" name="Categoria1" class="input"><br>
+                 <label for="categoriaInteres">Categoria 2</label>
+                 <input type="checkbox" id="categoriaInteres" name="Categoria2" class="input"><br>
+                 <label for="categoriaInteres">Categoria 3</label>
+                 <input type="checkbox" id="categoriaInteres" name="Categoria3" class="input"><br>
+                 
+                  Sugerencias para la Empresa<br>
+                 <label for="sugerencias"></label>
+                 <textarea id="sugerencias" name="sugerencias" rows="10" cols="30" class="input"></textarea ><br>
+                 
+                 <label for="password">Contrseña</label>
+                 <input type="text" id="password" name="password" required class="input"><br>
+                 
+                 <label for="aceptarCondiciones">Acepto los terminos y condiciones</label>
+                 <input type="checkbox" id="aceptarCondiciones" name="acptarCondiciones" required class="input"><br>
+                 
+                  <label for="aceptarInfo">Acepto recibir informacion relativa a la empresa</label>
+                 <input type="checkbox" id="aceptarInfos" name="aceotarInfo" class="input"><br>
+                 
+                 
+                 <button type="submit" class="input">Enviar</button>
+            
+            </form>
+            
+            <footer id="footer">
+                 <h2> Alumno: </h2>
+                    <p>Tarifa, Mauro Agustín</p>
+                 <h3> Contactos: </h3>
+                 <h3>Correo electronico:</h3>
+                 <ul>
+                    <li>Dastan@gmail.com</li>
+                    <li>Dastan_12@hotmail.com</li>
+                    <li>40440760@fi.unju.edu.ar</li>
+                 </ul>
+                 <h3>Instagram:</h3>
+                 <p><a href="https://www.instagram.com/maurobasspl?igsh=MWhvanpkbTB2aTBpdg==">Instagram</a></p>
+            </footer>
+            
+
+      </body>
+</html>
